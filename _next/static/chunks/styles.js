@@ -1,13 +1,14 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["styles"],{
 
-/***/ "./assets/style.css":
-/*!**************************!*\
-  !*** ./assets/style.css ***!
-  \**************************/
+/***/ "./style.css":
+/*!*******************!*\
+  !*** ./style.css ***!
+  \*******************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-// extracted by mini-css-extract-plugin;
+// extracted by mini-css-extract-plugin
+module.exports = {"light":"_2alFXMb70_WJIv3tXOn8Lk","center":"_3dBQ5ey3r9MRjk9s2ikYnx","container":"RX7MVaJTvfI0d1TLV5iSh","flex":"XkbScIMztra-tcR5GMu1L","footer":"_3jYYKrhMrOrJrW4UHkrQ5V"};;
     if (true) {
       var injectCss = function injectCss(prev, href) {
         var link = prev.cloneNode();
@@ -29,7 +30,7 @@
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1553464143425");
+            injectCss(link, link.href.split("?")[0] + "?unix=1553468962047");
           });
       }
     }

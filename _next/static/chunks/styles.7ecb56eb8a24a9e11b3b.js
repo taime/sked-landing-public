@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{MV5A:function(n,r,e){n.exports={light:"_2alFXMb70_WJIv3tXOn8Lk",center:"_3dBQ5ey3r9MRjk9s2ikYnx",container:"RX7MVaJTvfI0d1TLV5iSh",flex:"XkbScIMztra-tcR5GMu1L",footer:"_3jYYKrhMrOrJrW4UHkrQ5V"}}}]);

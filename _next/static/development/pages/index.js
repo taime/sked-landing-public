@@ -26,6 +26,7 @@ var Features = function Features() {
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "/static/img/desktop_HD.png",
+    className: "fit",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
@@ -23352,7 +23353,7 @@ var _jsxFileName = "/Users/tema/Sites/Sked/Sked_Landing/pages/index.js";
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "parallax__layer parallax__layer--base",
+    className: "parallax__layer parallax__layer--base bg-light",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
@@ -23367,7 +23368,8 @@ var _jsxFileName = "/Users/tema/Sites/Sked/Sked_Landing/pages/index.js";
   }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "parallax__group",
     style: {
-      marginTop: 0
+      marginTop: 0,
+      height: 600
     },
     __source: {
       fileName: _jsxFileName,

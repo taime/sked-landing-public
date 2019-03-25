@@ -1,4 +1,5 @@
 $height: 900px;
+$break-small: 420px;
 
 $perspective: 100px;
 
@@ -11,12 +12,20 @@ $perspective: 100px;
     height: $height;
     overflow-x: hidden;
     overflow-y: auto;
+
+    @media screen and (max-width: $break-small) {
+        height: 100vh;
+    }
 }
 
 .parallax__group {
     position: relative;
     height: $height;
     transform-style: preserve-3d;
+
+    @media screen and (max-width: $break-small) {
+        height: 100vh;
+    }
 
 }
 

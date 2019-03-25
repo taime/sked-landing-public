@@ -2,6 +2,9 @@
 
 $pink: #FFAFD1;
 $light: #FFFFFF;
+$light-gray: #FAFAFA;
+$blue: rgb(0, 85, 196);
+
 $break-small: 420px;
 $break-large: 1200px;
 
@@ -23,11 +26,28 @@ body {
 
 section {
     padding: 40px;
-    background: $light;
 }
+
+.bg-light {
+    background-color: $light-gray;
+}
+
+.bg-dark {
+    background-color: $blue;
+    color: white
+}
+
 
 .header {
     text-align: center
+}
+
+.descr {
+    text-align: center;
+    font-weight: 300;
+    font-size: 2em;
+    max-width: 800px;
+    margin: 0 auto 40px;
 }
 
 
@@ -38,11 +58,13 @@ h1 {
 h2 {
     font-size: 5em;
     font-weight: 100;
+    margin-bottom: 20px;
 }
 
 h3 {
     font-size: 3em;
     font-weight: 100;
+
 }
 
 .light {
@@ -63,4 +85,23 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+.shadow {
+    -webkit-box-shadow: 0px 1px 12px 0px rgba(0, 0, 0, 0.45);
+    -moz-box-shadow: 0px 1px 12px 0px rgba(0, 0, 0, 0.45);
+    box-shadow: 0px 1px 12px 0px rgba(0, 0, 0, 0.45);
+}
+
+.shadow-light {
+    -webkit-box-shadow: 0 0 4px 0px rgba(0, 0, 0, 0.45);
+    -moz-box-shadow: 0 0 4px 0px rgba(0, 0, 0, 0.45);
+    box-shadow: 0 0 4px 0px rgba(0, 0, 0, 0.45);
+}
+
+a,
+a.active,
+a.visited {
+    text-decoration: none;
 }

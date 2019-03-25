@@ -1458,6 +1458,41 @@ var _CssBaseline = _interopRequireDefault(__webpack_require__(/*! ./CssBaseline 
 
 /***/ }),
 
+/***/ "./node_modules/@material-ui/core/colors/blue.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/@material-ui/core/colors/blue.js ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var blue = {
+  50: '#e3f2fd',
+  100: '#bbdefb',
+  200: '#90caf9',
+  300: '#64b5f6',
+  400: '#42a5f5',
+  500: '#2196f3',
+  600: '#1e88e5',
+  700: '#1976d2',
+  800: '#1565c0',
+  900: '#0d47a1',
+  A100: '#82b1ff',
+  A200: '#448aff',
+  A400: '#2979ff',
+  A700: '#2962ff'
+};
+var _default = blue;
+exports.default = _default;
+
+/***/ }),
+
 /***/ "./node_modules/@material-ui/core/colors/common.js":
 /*!*********************************************************!*\
   !*** ./node_modules/@material-ui/core/colors/common.js ***!
@@ -1477,41 +1512,6 @@ var common = {
   white: '#fff'
 };
 var _default = common;
-exports.default = _default;
-
-/***/ }),
-
-/***/ "./node_modules/@material-ui/core/colors/green.js":
-/*!********************************************************!*\
-  !*** ./node_modules/@material-ui/core/colors/green.js ***!
-  \********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-var green = {
-  50: '#e8f5e9',
-  100: '#c8e6c9',
-  200: '#a5d6a7',
-  300: '#81c784',
-  400: '#66bb6a',
-  500: '#4caf50',
-  600: '#43a047',
-  700: '#388e3c',
-  800: '#2e7d32',
-  900: '#1b5e20',
-  A100: '#b9f6ca',
-  A200: '#69f0ae',
-  A400: '#00e676',
-  A700: '#00c853'
-};
-var _default = green;
 exports.default = _default;
 
 /***/ }),
@@ -1617,41 +1617,6 @@ var pink = {
   A700: '#c51162'
 };
 var _default = pink;
-exports.default = _default;
-
-/***/ }),
-
-/***/ "./node_modules/@material-ui/core/colors/purple.js":
-/*!*********************************************************!*\
-  !*** ./node_modules/@material-ui/core/colors/purple.js ***!
-  \*********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-var purple = {
-  50: '#f3e5f5',
-  100: '#e1bee7',
-  200: '#ce93d8',
-  300: '#ba68c8',
-  400: '#ab47bc',
-  500: '#9c27b0',
-  600: '#8e24aa',
-  700: '#7b1fa2',
-  800: '#6a1b9a',
-  900: '#4a148c',
-  A100: '#ea80fc',
-  A200: '#e040fb',
-  A400: '#d500f9',
-  A700: '#aa00ff'
-};
-var _default = purple;
 exports.default = _default;
 
 /***/ }),
@@ -20385,10 +20350,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var jss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(jss__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @material-ui/core/styles */ "./node_modules/@material-ui/core/styles/index.js");
 /* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _material_ui_core_colors_purple__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @material-ui/core/colors/purple */ "./node_modules/@material-ui/core/colors/purple.js");
-/* harmony import */ var _material_ui_core_colors_purple__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_colors_purple__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _material_ui_core_colors_green__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @material-ui/core/colors/green */ "./node_modules/@material-ui/core/colors/green.js");
-/* harmony import */ var _material_ui_core_colors_green__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_colors_green__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _material_ui_core_colors_pink__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @material-ui/core/colors/pink */ "./node_modules/@material-ui/core/colors/pink.js");
+/* harmony import */ var _material_ui_core_colors_pink__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_colors_pink__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _material_ui_core_colors_blue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @material-ui/core/colors/blue */ "./node_modules/@material-ui/core/colors/blue.js");
+/* harmony import */ var _material_ui_core_colors_blue__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_colors_blue__WEBPACK_IMPORTED_MODULE_4__);
 
 
 
@@ -20399,14 +20364,14 @@ __webpack_require__.r(__webpack_exports__);
 var theme = Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_2__["createMuiTheme"])({
   palette: {
     primary: {
-      light: _material_ui_core_colors_purple__WEBPACK_IMPORTED_MODULE_3___default.a[300],
-      main: _material_ui_core_colors_purple__WEBPACK_IMPORTED_MODULE_3___default.a[500],
-      dark: _material_ui_core_colors_purple__WEBPACK_IMPORTED_MODULE_3___default.a[700]
+      light: _material_ui_core_colors_blue__WEBPACK_IMPORTED_MODULE_4___default.a[300],
+      main: _material_ui_core_colors_blue__WEBPACK_IMPORTED_MODULE_4___default.a[500],
+      dark: _material_ui_core_colors_blue__WEBPACK_IMPORTED_MODULE_4___default.a[700]
     },
     secondary: {
-      light: _material_ui_core_colors_green__WEBPACK_IMPORTED_MODULE_4___default.a[300],
-      main: _material_ui_core_colors_green__WEBPACK_IMPORTED_MODULE_4___default.a[500],
-      dark: _material_ui_core_colors_green__WEBPACK_IMPORTED_MODULE_4___default.a[700]
+      light: '#ffbfda',
+      main: '#FFAFD1',
+      dark: '#b27a92'
     }
   },
   typography: {

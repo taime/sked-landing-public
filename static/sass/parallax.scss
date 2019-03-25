@@ -1,0 +1,61 @@
+$height: 100vh;
+
+$perspective: 100px;
+
+@function calc-scale($translateZ) {
+    @return 1+($translateZ * -1) / $perspective
+}
+
+.parallax {
+    perspective: $perspective;
+    height: $height;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.parallax__group {
+    position: relative;
+    height: $height;
+    transform-style: preserve-3d;
+
+}
+
+.parallax__layer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+
+
+
+
+.parallax__layer--base {
+    transform: translateZ(0) scale(1);
+}
+
+$tr: -30px;
+
+.parallax__layer--norm {
+    transform: translateZ($tr) scale(calc-scale($tr));
+}
+
+$tr: -40px;
+
+.parallax__layer--moderate {
+    transform: translateZ($tr) scale(calc-scale($tr));
+}
+
+$tr: -80px;
+
+.parallax__layer--slow {
+    transform: translateZ($tr) scale(calc-scale($tr));
+}
+
+$tr: -100px;
+
+.parallax__layer--back {
+    transform: translateZ($tr) scale(calc-scale($tr));
+}

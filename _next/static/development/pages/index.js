@@ -1,5 +1,70 @@
 ((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
 
+/***/ "./components/BlockHappy/index.js":
+/*!****************************************!*\
+  !*** ./components/BlockHappy/index.js ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "/Users/tema/Sites/Sked/Sked_Landing/components/BlockHappy/index.js";
+
+
+var BlockHappy = function BlockHappy() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "header",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, "\u0421\u043F\u0430\u0441\u0438\u0431\u043E!"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    style: {
+      background: 'white',
+      paddingRight: '3%'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/static/img/b3/b3.svg",
+    className: "fit",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  })));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (BlockHappy);
+
+/***/ }),
+
 /***/ "./components/Features/index.js":
 /*!**************************************!*\
   !*** ./components/Features/index.js ***!
@@ -25,7 +90,7 @@ var Features = function Features() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "/static/img/desktop_HD.png",
+    src: "/static/img/b2/b2.svg",
     className: "fit",
     __source: {
       fileName: _jsxFileName,
@@ -49714,12 +49779,12 @@ exports.setNormalizedScrollLeft = setNormalizedScrollLeft;
 
 /***/ "./node_modules/object-assign/index.js":
 /*!***************************************************************************************************!*\
-  !*** delegated ./node_modules/object-assign/index.js from dll-reference dll_b8179409c0a56a02f040 ***!
+  !*** delegated ./node_modules/object-assign/index.js from dll-reference dll_303cab3af06bf749d1ff ***!
   \***************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_b8179409c0a56a02f040 */ "dll-reference dll_b8179409c0a56a02f040"))("./node_modules/object-assign/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_303cab3af06bf749d1ff */ "dll-reference dll_303cab3af06bf749d1ff"))("./node_modules/object-assign/index.js");
 
 /***/ }),
 
@@ -52980,12 +53045,12 @@ module.exports = exports['default'];
 
 /***/ "./node_modules/prop-types/checkPropTypes.js":
 /*!*********************************************************************************************************!*\
-  !*** delegated ./node_modules/prop-types/checkPropTypes.js from dll-reference dll_b8179409c0a56a02f040 ***!
+  !*** delegated ./node_modules/prop-types/checkPropTypes.js from dll-reference dll_303cab3af06bf749d1ff ***!
   \*********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_b8179409c0a56a02f040 */ "dll-reference dll_b8179409c0a56a02f040"))("./node_modules/prop-types/checkPropTypes.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_303cab3af06bf749d1ff */ "dll-reference dll_303cab3af06bf749d1ff"))("./node_modules/prop-types/checkPropTypes.js");
 
 /***/ }),
 
@@ -53620,12 +53685,12 @@ if (true) {
 
 /***/ "./node_modules/prop-types/lib/ReactPropTypesSecret.js":
 /*!*******************************************************************************************************************!*\
-  !*** delegated ./node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_b8179409c0a56a02f040 ***!
+  !*** delegated ./node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_303cab3af06bf749d1ff ***!
   \*******************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_b8179409c0a56a02f040 */ "dll-reference dll_b8179409c0a56a02f040"))("./node_modules/prop-types/lib/ReactPropTypesSecret.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_303cab3af06bf749d1ff */ "dll-reference dll_303cab3af06bf749d1ff"))("./node_modules/prop-types/lib/ReactPropTypesSecret.js");
 
 /***/ }),
 
@@ -54371,12 +54436,12 @@ exports.encode = exports.stringify = __webpack_require__(/*! ./encode */ "./node
 
 /***/ "./node_modules/react-dom/index.js":
 /*!***********************************************************************************************!*\
-  !*** delegated ./node_modules/react-dom/index.js from dll-reference dll_b8179409c0a56a02f040 ***!
+  !*** delegated ./node_modules/react-dom/index.js from dll-reference dll_303cab3af06bf749d1ff ***!
   \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_b8179409c0a56a02f040 */ "dll-reference dll_b8179409c0a56a02f040"))("./node_modules/react-dom/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_303cab3af06bf749d1ff */ "dll-reference dll_303cab3af06bf749d1ff"))("./node_modules/react-dom/index.js");
 
 /***/ }),
 
@@ -56093,12 +56158,12 @@ var classNamesShape =  true ? prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.
 
 /***/ "./node_modules/react/index.js":
 /*!*******************************************************************************************!*\
-  !*** delegated ./node_modules/react/index.js from dll-reference dll_b8179409c0a56a02f040 ***!
+  !*** delegated ./node_modules/react/index.js from dll-reference dll_303cab3af06bf749d1ff ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_b8179409c0a56a02f040 */ "dll-reference dll_b8179409c0a56a02f040"))("./node_modules/react/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_303cab3af06bf749d1ff */ "dll-reference dll_303cab3af06bf749d1ff"))("./node_modules/react/index.js");
 
 /***/ }),
 
@@ -58025,12 +58090,12 @@ module.exports = warning;
 
 /***/ "./node_modules/webpack/buildin/global.js":
 /*!******************************************************************************************************!*\
-  !*** delegated ./node_modules/webpack/buildin/global.js from dll-reference dll_b8179409c0a56a02f040 ***!
+  !*** delegated ./node_modules/webpack/buildin/global.js from dll-reference dll_303cab3af06bf749d1ff ***!
   \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_b8179409c0a56a02f040 */ "dll-reference dll_b8179409c0a56a02f040"))("./node_modules/webpack/buildin/global.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_303cab3af06bf749d1ff */ "dll-reference dll_303cab3af06bf749d1ff"))("./node_modules/webpack/buildin/global.js");
 
 /***/ }),
 
@@ -58118,7 +58183,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Masthead__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Masthead */ "./components/Masthead/index.js");
 /* harmony import */ var _components_Features__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Features */ "./components/Features/index.js");
 /* harmony import */ var _components_TryNow__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/TryNow */ "./components/TryNow/index.js");
+/* harmony import */ var _components_BlockHappy__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/BlockHappy */ "./components/BlockHappy/index.js");
 var _jsxFileName = "/Users/tema/Sites/Sked/Sked_Landing/pages/index.js";
+
 
 
 
@@ -58129,58 +58196,55 @@ var _jsxFileName = "/Users/tema/Sites/Sked/Sked_Landing/pages/index.js";
     className: "parallax",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 8
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Masthead__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 9
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "parallax__group bg-light",
     style: {
-      marginTop: 0,
-      height: 600
+      height: 2400
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 10
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "parallax__layer parallax__layer--base bg-light",
+    className: "parallax__layer parallax__layer--base",
+    style: {
+      background: 'white'
+    },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 11
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "inner-shadow",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_TryNow__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 16
     },
     __self: this
-  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "parallax__group",
-    style: {
-      marginTop: 0,
-      height: 600
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "parallax__layer parallax__layer--base",
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Features__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 18
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Features__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_BlockHappy__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 19
@@ -58203,14 +58267,14 @@ module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absol
 
 /***/ }),
 
-/***/ "dll-reference dll_b8179409c0a56a02f040":
+/***/ "dll-reference dll_303cab3af06bf749d1ff":
 /*!*******************************************!*\
-  !*** external "dll_b8179409c0a56a02f040" ***!
+  !*** external "dll_303cab3af06bf749d1ff" ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = dll_b8179409c0a56a02f040;
+module.exports = dll_303cab3af06bf749d1ff;
 
 /***/ })
 

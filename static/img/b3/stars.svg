@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1216px" height="767px" viewBox="0 0 1216 767" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>stars</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="b3" transform="translate(-72.000000, -86.000000)">
+            <g id="back" transform="translate(-45.500000, -0.500000)">
+                <g id="stars" transform="translate(117.399495, 89.500000)">
+                    <rect id="Rectangle" stroke="#FF67B1" stroke-width="6" transform="translate(429.899495, 227.798990) rotate(45.000000) translate(-429.899495, -227.798990) " x="418.899495" y="216.79899" width="22" height="22"></rect>
+                    <rect id="Rectangle-Copy-2" stroke="#FF67B1" stroke-width="6" transform="translate(1116.000000, 401.899495) rotate(45.000000) translate(-1116.000000, -401.899495) " x="1112" y="397.899495" width="8" height="8"></rect>
+                    <rect id="Rectangle-Copy-3" stroke="#FF67B1" stroke-width="6" transform="translate(558.000000, 150.899495) rotate(45.000000) translate(-558.000000, -150.899495) " x="554" y="146.899495" width="8" height="8"></rect>
+                    <rect id="Rectangle-Copy" stroke="#FF67B1" stroke-width="6" transform="translate(1078.970563, 736.870058) rotate(45.000000) translate(-1078.970563, -736.870058) " x="1062.97056" y="720.870058" width="32" height="32"></rect>
+                    <circle id="Oval" stroke="#FFFFFF" stroke-width="5" cx="66.1005051" cy="302" r="19"></circle>
+                    <circle id="Oval-Copy-3" stroke="#FF50A2" stroke-width="5" cx="262.100505" cy="14" r="14"></circle>
+                    <circle id="Oval-Copy-2" stroke="#FFFFFF" stroke-width="5" cx="578.600505" cy="305.5" r="9.5"></circle>
+                    <circle id="Oval-Copy" stroke="#FFFFFF" stroke-width="5" cx="879.100505" cy="412" r="27"></circle>
+                    <rect id="Rectangle-Copy-4" stroke="#FF67B1" stroke-width="6" transform="translate(10.000000, 43.899495) rotate(45.000000) translate(-10.000000, -43.899495) " x="6" y="39.8994949" width="8" height="8"></rect>
+                    <circle id="Oval-Copy-4" stroke="#FF50A2" stroke-width="5" cx="1199.10051" cy="127" r="14"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
